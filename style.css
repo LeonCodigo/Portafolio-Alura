@@ -52,7 +52,6 @@ https://en.bem.info/methodology/quick-start/*/
 }
 
 
-
 /*Sección Title*/
 
 
@@ -64,6 +63,12 @@ https://en.bem.info/methodology/quick-start/*/
 .title__subsection{
     font-size:1.25em;
     margin-bottom:1em;
+}
+
+.title__profile{
+    border-radius: 100%;
+    width: 35%;
+    height: 35%;
 }
 
 .title__bio {
@@ -122,7 +127,8 @@ https://en.bem.info/methodology/quick-start/*/
     padding: 3rem;
     background: white;
     margin: 0 1.5rem 0 0;
-    max-width: 40px;
+    max-width: 50px;
+    max-height: 50px;
 }
 
 
@@ -163,6 +169,7 @@ https://en.bem.info/methodology/quick-start/*/
     padding: 3rem;
     background: white;
     margin: 0 .7rem .7rem 0;
+
 }
 
 .academic__courses__item__title {
@@ -217,6 +224,7 @@ https://en.bem.info/methodology/quick-start/*/
 .formcontato__contacto{
     background: var(--cor-de-seccion);
     padding: 5rem;
+    margin-top: 2rem;
 }
 
 .formcontato__title{

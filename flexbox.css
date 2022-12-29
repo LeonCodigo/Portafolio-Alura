@@ -58,7 +58,8 @@
     justify-content: center;
 }
 
-.academic__container {
+
+.academic__container,.hobbies__box,.skills__box {
    display:flex;
    flex-direction:column;
    align-items:center;
@@ -68,7 +69,7 @@
     display: flex;
     flex-direction: row;
     justify-content:space-around;
-   
+    align-items: center;
 }
 
 .experiencie__container {
